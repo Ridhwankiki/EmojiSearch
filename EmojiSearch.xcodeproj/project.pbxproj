@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520B096D2BCF729C00C3E6F0 /* EmojiRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B096C2BCF729C00C3E6F0 /* EmojiRow.swift */; };
+		520B09702BCF75C700C3E6F0 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B096F2BCF75C700C3E6F0 /* RandomColor.swift */; };
 		52FD52972BCF6347000E5EE9 /* EmojiSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD52962BCF6347000E5EE9 /* EmojiSearchApp.swift */; };
 		52FD52992BCF6347000E5EE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD52982BCF6347000E5EE9 /* ContentView.swift */; };
 		52FD529B2BCF6349000E5EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FD529A2BCF6349000E5EE9 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520B096C2BCF729C00C3E6F0 /* EmojiRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRow.swift; sourceTree = "<group>"; };
+		520B096F2BCF75C700C3E6F0 /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
 		52FD52932BCF6347000E5EE9 /* EmojiSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD52962BCF6347000E5EE9 /* EmojiSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSearchApp.swift; sourceTree = "<group>"; };
 		52FD52982BCF6347000E5EE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		520B096B2BCF728400C3E6F0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				520B096C2BCF729C00C3E6F0 /* EmojiRow.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		520B096E2BCF75A800C3E6F0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				520B096F2BCF75C700C3E6F0 /* RandomColor.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		52FD528A2BCF6347000E5EE9 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +73,7 @@
 		52FD52952BCF6347000E5EE9 /* EmojiSearch */ = {
 			isa = PBXGroup;
 			children = (
+				520B096E2BCF75A800C3E6F0 /* Utility */,
 				52FD52A72BCF6F71000E5EE9 /* Model */,
 				52FD52A42BCF6CAE000E5EE9 /* App */,
 				52FD52A52BCF6CC8000E5EE9 /* View */,
@@ -81,6 +102,7 @@
 		52FD52A52BCF6CC8000E5EE9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				520B096B2BCF728400C3E6F0 /* Component */,
 				52FD52982BCF6347000E5EE9 /* ContentView.swift */,
 			);
 			path = View;
@@ -173,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FD52A92BCF6FA0000E5EE9 /* Emoji.swift in Sources */,
+				520B09702BCF75C700C3E6F0 /* RandomColor.swift in Sources */,
+				520B096D2BCF729C00C3E6F0 /* EmojiRow.swift in Sources */,
 				52FD52992BCF6347000E5EE9 /* ContentView.swift in Sources */,
 				52FD52972BCF6347000E5EE9 /* EmojiSearchApp.swift in Sources */,
 			);

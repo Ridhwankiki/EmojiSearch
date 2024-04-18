@@ -16,8 +16,6 @@ An Application that i made to preview and search an emoji.
 
 ## Supported
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 
 ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)

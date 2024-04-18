@@ -11,7 +11,7 @@ import SwiftUI
 struct EmojiSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

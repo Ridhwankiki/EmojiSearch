@@ -22,6 +22,7 @@ struct EmojiDetail: View {
                             .fontWeight(.heavy)
                         Text(emoji.description)
                             
+                        InfoBox()
                         
                     }
                     Spacer()

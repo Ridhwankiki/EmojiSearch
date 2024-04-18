@@ -67,8 +67,7 @@ struct ContentView: View {
             )
             .overlay {
                 if emojiSearchResults.isEmpty {
-                    ContentUnavailableView.search(text: searchText)
-                }
+                    ContentUnavailableView.search(text: searchText)                }
             }
         }
     }
